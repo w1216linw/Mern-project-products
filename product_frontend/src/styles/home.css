@@ -1,0 +1,32 @@
+.auto-scroll-bar {
+  margin-top: 1rem;
+  width: 95vw;
+  height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  overflow: hidden;
+}
+
+.auto-scroll-msg {
+  animation: scroll 20000ms linear infinite;
+}
+
+.auto-scroll-coupon {
+  background: lightgreen;
+  box-shadow: 0 0 0 4px lightgreen;
+}
+
+@keyframes scroll {
+  0% {
+    translate: -25%;
+  }
+  35%{
+    translate: 40%;
+  }
+  65%{
+    translate: 40%;
+  }
+  100% {
+    translate: 125%;
+  }
+}

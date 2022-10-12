@@ -1,0 +1,40 @@
+
+.navbar {
+  width: 100%;
+  height: 4rem;
+  background: var(--pri-color);
+  font-size: 1.5rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unfold-links {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.link {
+  margin: 0 1rem;
+  height: 4rem;
+  width: max-content;
+  color: whitesmoke;
+}
+
+.link:hover {
+  box-shadow: 0 0 0 9px var(--pri-color), 0 0 0 10px wheat;
+}
+
+.link.active{
+  box-shadow: 0 0 0 9px var(--pri-color), 0 0 0 10px white;
+}
+
+.sidebar-btn {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.sidebar-btn:hover {
+  scale: 1.2;
+}

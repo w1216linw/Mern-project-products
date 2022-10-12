@@ -1,0 +1,18 @@
+:root {
+  --pri-color: rgb(20, 20, 50);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}

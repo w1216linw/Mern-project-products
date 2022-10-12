@@ -1,0 +1,52 @@
+.sidebar {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.sidebar.show{
+  visibility: visible;
+}
+
+.sidebar-container {
+  width:25%;
+  height: 100%;
+  background-color: whitesmoke;
+  position: absolute;
+  right: 0;
+  top: 4rem;
+  translate: 100%;
+  transition: translate 250ms ease;
+}
+
+.sidebar-container.show{
+  translate: 0;
+}
+
+.sb-c-header {
+  border-bottom: 2px solid black;
+  margin: 1.25rem;
+}
+
+.sb-links-container {
+  width: 100%;
+  height: auto;
+}
+
+.sb-link {
+  display: block;
+  padding: 0.875rem 1.25rem;
+  color: black;
+  transition: 250ms ease-in;
+  transition-property: background-color, padding-left;
+}
+
+.sb-link:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-left: 1.50rem;
+}
